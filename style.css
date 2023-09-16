@@ -4,13 +4,26 @@ body {
 }
 
 header {
-  padding: 50px 0;
+  padding: 40px 0 0;
 }
 header .imgbox img {
   width: 150px;
 }
+header nav {
+  position: absolute;
+  top: 95px;
+  left: 185px;
+}
 header nav a {
   font-size: 20px;
-  color: #8c8999;
+  color: #f1eaea;
   margin-right: 30px;
+}
+
+#studio .imgbox img {
+  width: 98%;
+}
+#studio .big {
+  top: 25px;
+  left: 395px;
 }/*# sourceMappingURL=style.css.map */
