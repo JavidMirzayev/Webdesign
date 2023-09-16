@@ -1,13 +1,16 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+header {
+  padding: 50px 0;
 }
-
-a:hover {
-  color: black;
+header .imgbox img {
+  width: 150px;
 }
-/*# sourceMappingURL=style.css.map */
+header nav a {
+  font-size: 20px;
+  color: #8c8999;
+  margin-right: 30px;
+}/*# sourceMappingURL=style.css.map */
