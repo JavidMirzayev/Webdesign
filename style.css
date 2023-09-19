@@ -4,26 +4,240 @@ body {
 }
 
 header {
-  padding: 40px 0 0;
+  padding: 30px 0;
+  background-color: #212529;
 }
-header .imgbox img {
+header .imgbox {
   width: 150px;
-}
-header nav {
-  position: absolute;
-  top: 95px;
-  left: 185px;
+  height: 20px;
 }
 header nav a {
   font-size: 20px;
-  color: #f1eaea;
+  color: #aeaeb0;
   margin-right: 30px;
 }
 
-#studio .imgbox img {
-  width: 98%;
+#studio .imgbox {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
 }
-#studio .big {
-  top: 25px;
-  left: 395px;
+
+#services {
+  padding: 40px 0 60px;
+}
+#services .textbox {
+  text-align: center;
+}
+#services .textbox h2 {
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+#services .textbox h4 {
+  color: #6a6a6a;
+  padding-bottom: 45px;
+  font-size: 20px;
+  line-height: 1.3;
+}
+#services .icon {
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #ffc800;
+  padding: 30px;
+  width: 120px;
+  height: 120px;
+  font-size: 55px;
+  color: white;
+}
+#services .textbox h3 {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+#services .textbox h6 {
+  font-size: 20px;
+  color: #6a6a6a;
+  line-height: 1.4;
+}
+
+#portfolio {
+  padding: 40px 0 60px;
+  background-color: #f6f6f6;
+}
+#portfolio .textboox {
+  text-align: center;
+}
+#portfolio .textboox h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#portfolio .textboox h3 {
+  padding: 25px 0 50px;
+  line-height: 1.3;
+  color: #6a6a6a;
+  font-size: 20px;
+}
+#portfolio .textbox {
+  background-color: white;
+  text-align: center;
+}
+#portfolio .textbox h2 {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 25px 0 15px;
+}
+#portfolio .textbox h4 {
+  color: #6a6a6a;
+  font-size: 20px;
+  line-height: 1.3;
+  padding-bottom: 25px;
+}
+#portfolio .imgbox img {
+  width: 350px;
+  height: 220px;
+}
+#portfolio .imgbox img:hover {
+  color: #dc9223;
+}
+
+#about .textbox h1 {
+  font-size: 45px;
+  padding: 45px 0 15px;
+  font-weight: 700;
+}
+#about .textbox h1, #about .textbox h6 {
+  text-align: center;
+}
+#about .textbox h6 {
+  font-size: 20px;
+  color: #6a6a6a;
+  padding-bottom: 50px;
+}
+#about .textbox h2, #about .textbox h4 {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 5px 0;
+}
+#about .textbox p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+#about .imgbox img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#amazing {
+  background-color: #f8f9fa;
+  padding: 35px 0 75px;
+}
+#amazing .textbox {
+  text-align: center;
+}
+#amazing .textbox h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#amazing .textbox h4 {
+  color: #6a6a6a;
+  font-size: 20px;
+  padding: 20px 0;
+}
+#amazing .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 25px 0 10px;
+}
+#amazing .textbox h5 {
+  color: #6a6a6a;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+#amazing .textbox h6 {
+  font-size: 25px;
+  color: #6a6a6a;
+  padding: 40px 0 20px;
+}
+#amazing .imgbox img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 8px solid #dfe0e1;
+}
+#amazing ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#amazing ul li {
+  font-size: 25px;
+  background-color: white;
+  color: #000000;
+  border: 4px solid #ffffff;
+  margin: 0 15px;
+}
+
+#microsoft .one {
+  width: 190px;
+  height: 200px;
+  padding: 75px 0;
+}
+#microsoft .two {
+  width: 130px;
+  height: 150px;
+  padding: 75px 0;
+}
+#microsoft .three {
+  width: 160px;
+  height: 190px;
+  padding: 75px 0;
+}
+#microsoft .four {
+  width: 120px;
+  height: 140px;
+  padding: 75px 0;
+}
+
+#contact {
+  padding: 65px 0;
+  background-color: #212529;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+}
+#contact .textbox {
+  text-align: center;
+}
+#contact .textbox h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  padding: 65px 0 20px;
+}
+#contact .textbox h3 {
+  color: #757575;
+  padding-bottom: 35px;
+}
+#contact .box {
+  padding-bottom: 40px;
+}
+#contact .box .add input {
+  padding: 15px 0;
+  width: 470px;
+  height: 65px;
+  margin: 12px 0;
+}
+#contact .demo {
+  padding: 10px 0;
+}
+#contact .demo .add input {
+  width: 600px;
+  height: 245px;
+}
+#contact .box .btn {
+  padding: 20px 35px;
+  background-color: #c19e1d;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
