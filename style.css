@@ -21,6 +21,7 @@ header nav a {
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
+  height: 100vh;
 }
 
 #services {
