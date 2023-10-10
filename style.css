@@ -151,60 +151,60 @@ header nav a {
   font-size: 20px;
 }
 #about .textbox h2 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
 }
 #about .textbox h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
-  padding-bottom: 15px;
+  padding-bottom: 35px;
 }
 #about .textbox h2, #about .textbox h3, #about .textbox h6 {
-  padding-right: 65px;
+  padding: 0 110px;
 }
 #about .textbox h6 {
   font-size: 18px;
   color: #969696;
-  line-height: 1.2;
+  line-height: 1.6;
 }
 #about .textboxt2 {
-  padding: 20px 0 55px;
+  padding: 110px;
 }
 #about .textboxt2 h4 {
   font-size: 25px;
   font-weight: 600;
 }
 #about .textboxt2 h5 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   padding-bottom: 15px;
 }
 #about .textboxt2 p {
-  font-size: 25px;
+  font-size: 20px;
   color: #969696;
   line-height: 1.2;
 }
 #about .imgbox img {
   border-radius: 50%;
   border: 8px solid #ebebeb;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   position: relative;
-  left: -75px;
+  right: 90px;
   top: 5px;
 }
 #about .imgbox2 img {
   border-radius: 50%;
   border: 8px solid #ebebeb;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   position: relative;
-  left: -75px;
-  top: 5px;
+  left: 280px;
+  top: 110px;
 }
 #about .box .btn {
   position: absolute;
-  left: 520px;
+  right: 620px;
   color: white;
   font-size: 20px;
   padding: 25px 40px;
@@ -214,7 +214,7 @@ header nav a {
 
 #amazing {
   background-color: #f8f9fa;
-  padding: 50px 0 75px;
+  padding: 20px 75px;
 }
 #amazing .textbox {
   text-align: center;
@@ -222,6 +222,7 @@ header nav a {
 #amazing .textbox h3 {
   font-size: 35px;
   font-weight: 700;
+  padding: 180px 0;
 }
 #amazing .textbox h4 {
   color: #6a6a6a;
