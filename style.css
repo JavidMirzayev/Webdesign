@@ -5,17 +5,21 @@ body {
 
 header {
   position: fixed;
-  padding: 30px 0;
+  padding: 30px 365px;
   background-color: #212529;
 }
 header .imgbox {
-  width: 150px;
+  width: 140px;
   height: 20px;
+  position: relative;
+  right: 250px;
 }
 header nav a {
-  font-size: 20px;
-  color: #aeaeb0;
+  font-size: 18px;
+  color: #d7d7df;
   margin-right: 30px;
+  position: relative;
+  left: 300px;
 }
 
 #studio .imgbox {
@@ -24,9 +28,9 @@ header nav a {
   background-size: cover;
 }
 #studio .box img {
-  padding: 20px 0 0 0;
+  padding: 20px 310px;
   width: 900%;
-  height: 900px;
+  height: 950px;
 }
 #studio .textbox {
   color: white;
@@ -136,54 +140,60 @@ header nav a {
 #about {
   padding-bottom: 50px;
 }
-#about .textboxx {
-  padding: 10px 0 55px 55px;
-}
-#about .textboxx h1 {
+#about .textbox h1 {
   font-size: 45px;
   padding: 45px 0 15px;
   font-weight: 700;
 }
-#about .textboxx h4 {
+#about .textbox h4 {
   color: #969696;
   padding-bottom: 50px;
   font-size: 20px;
 }
-#about .textboxx h2 {
+#about .textbox h2 {
   font-size: 20px;
   font-weight: 600;
 }
-#about .textboxx h3 {
+#about .textbox h3 {
   font-size: 20px;
   font-weight: 700;
   padding-bottom: 15px;
 }
-#about .textboxx h2, #about .textboxx h3, #about .textboxx h6 {
+#about .textbox h2, #about .textbox h3, #about .textbox h6 {
   padding-right: 65px;
 }
-#about .textboxx h6 {
+#about .textbox h6 {
   font-size: 18px;
   color: #969696;
   line-height: 1.2;
 }
-#about .textboxtwo {
+#about .textboxt2 {
   padding: 20px 0 55px;
 }
-#about .textboxtwo h4 {
+#about .textboxt2 h4 {
   font-size: 25px;
   font-weight: 600;
 }
-#about .textboxtwo h5 {
+#about .textboxt2 h5 {
   font-size: 30px;
   font-weight: 700;
   padding-bottom: 15px;
 }
-#about .textboxtwo p {
+#about .textboxt2 p {
   font-size: 25px;
   color: #969696;
   line-height: 1.2;
 }
 #about .imgbox img {
+  border-radius: 50%;
+  border: 8px solid #ebebeb;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  left: -75px;
+  top: 5px;
+}
+#about .imgbox2 img {
   border-radius: 50%;
   border: 8px solid #ebebeb;
   width: 180px;
