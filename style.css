@@ -154,7 +154,6 @@ header nav a {
 #about .textbox h3 {
   font-size: 25px;
   font-weight: 700;
-  padding-bottom: 75px;
 }
 #about .textbox h2, #about .textbox h3, #about .textbox h6 {
   padding: 0 110px;
@@ -163,6 +162,7 @@ header nav a {
   font-size: 18px;
   color: #969696;
   line-height: 1.6;
+  padding: 10px 105px 0;
 }
 #about .textboxt2 {
   padding: 110px;
