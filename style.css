@@ -154,7 +154,7 @@ header nav a {
 #about .textbox h3 {
   font-size: 25px;
   font-weight: 700;
-  padding-bottom: 35px;
+  padding-bottom: 75px;
 }
 #about .textbox h2, #about .textbox h3, #about .textbox h6 {
   padding: 0 110px;
@@ -199,18 +199,22 @@ header nav a {
   left: 280px;
   top: 110px;
 }
+#about .box {
+  padding-bottom: 200px;
+}
 #about .box .btn {
   position: absolute;
-  right: 620px;
+  right: 615px;
   color: white;
   font-size: 20px;
   padding: 25px 40px;
   border-radius: 50%;
+  border: 8px solid #ebebeb;
   background-color: #ffc800;
 }
 
 #amazing {
-  background-color: #f8f9fa;
+  background-color: #f6f6f6;
   padding: 20px 75px;
 }
 #amazing .textbox {
@@ -219,12 +223,12 @@ header nav a {
 #amazing .textbox h3 {
   font-size: 35px;
   font-weight: 700;
-  padding: 180px 0;
+  padding: 20px 0;
 }
 #amazing .textbox h4 {
   color: #6a6a6a;
   font-size: 20px;
-  padding: 20px 0;
+  padding-bottom: 70px;
 }
 #amazing .textbox h2 {
   font-size: 30px;
@@ -237,9 +241,9 @@ header nav a {
   padding-bottom: 15px;
 }
 #amazing .textbox h6 {
-  font-size: 25px;
+  font-size: 20px;
   color: #6a6a6a;
-  padding: 40px 0 20px;
+  padding: 40px 145px 20px;
 }
 #amazing .imgbox img {
   width: 250px;
@@ -253,7 +257,7 @@ header nav a {
   justify-content: center;
 }
 #amazing ul li {
-  font-size: 20px;
+  font-size: 18px;
   background-color: #1d1735;
   border-radius: 70%;
   color: white;
