@@ -80,7 +80,7 @@ header nav a {
   margin: 0 10px;
   border-radius: 50%;
   background-color: #ffc800;
-  padding: 30px;
+  padding: 30px 30px;
   width: 120px;
   height: 120px;
   font-size: 55px;
@@ -308,17 +308,18 @@ header nav a {
   padding-bottom: 40px;
 }
 #contact .box .add input {
-  padding: 15px 0;
+  color: rgba(0, 0, 0, 0.1764705882);
+  font-size: 20px;
+  padding: 15px;
   width: 470px;
   height: 65px;
   margin: 12px 0;
 }
-#contact .demo {
-  padding: 10px 0;
-}
 #contact .demo .add input {
+  font-size: 20px;
   width: 600px;
   height: 245px;
+  color: rgba(0, 0, 0, 0.1764705882);
 }
 #contact .box .btn {
   padding: 20px 35px;
@@ -326,4 +327,21 @@ header nav a {
   color: white;
   font-size: 20px;
   font-weight: 700;
+}
+
+#website {
+  padding: 20px 0;
+}
+#website ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#website ul li {
+  font-size: 18px;
+  background-color: #1d1735;
+  border-radius: 70%;
+  color: white;
+  border: 15px solid #1d1735;
+  margin: 0 15px;
 }/*# sourceMappingURL=style.css.map */
