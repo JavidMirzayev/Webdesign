@@ -5,6 +5,7 @@ body {
 
 header {
   position: fixed;
+  width: 100%;
   padding: 30px 365px;
   background-color: #212529;
 }
@@ -22,11 +23,6 @@ header nav a {
   left: 300px;
 }
 
-#studio .imgbox {
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-}
 #studio .box img {
   padding: 20px 310px;
   width: 900%;
@@ -137,80 +133,100 @@ header nav a {
 #about {
   padding-bottom: 50px;
 }
-#about .textbox h1 {
+#about .textboxx {
+  padding: 10px 0 55px;
+}
+#about .textboxx h1 {
   font-size: 45px;
   padding: 45px 0 15px;
   font-weight: 700;
 }
-#about .textbox h4 {
+#about .textboxx h4 {
   color: #969696;
   padding-bottom: 50px;
   font-size: 20px;
 }
-#about .textbox h2 {
+#about .textboxx h2 {
   font-size: 25px;
   font-weight: 600;
 }
-#about .textbox h3 {
-  font-size: 25px;
-  font-weight: 700;
-}
-#about .textbox h2, #about .textbox h3, #about .textbox h6 {
-  padding: 0 110px;
-}
-#about .textbox h6 {
-  font-size: 18px;
-  color: #969696;
-  line-height: 1.6;
-  padding: 10px 105px 0;
-}
-#about .textboxt2 {
-  padding: 110px;
-}
-#about .textboxt2 h4 {
-  font-size: 25px;
-  font-weight: 600;
-}
-#about .textboxt2 h5 {
-  font-size: 25px;
+#about .textboxx h3 {
+  font-size: 30px;
   font-weight: 700;
   padding-bottom: 15px;
 }
-#about .textboxt2 p {
-  font-size: 20px;
+#about .textboxx h5 {
+  font-size: 18px;
+  color: #969696;
+  line-height: 1.8;
+  padding-right: 90px;
+}
+#about .textboxx h6 {
+  font-size: 18px;
+  color: #969696;
+  line-height: 1.8;
+  padding-left: 90px;
+}
+#about .textboxtwo {
+  padding: 20px 0 55px;
+}
+#about .textboxtwo h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+#about .textboxtwo h5 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+#about .textboxtwo p {
+  font-size: 25px;
   color: #969696;
   line-height: 1.2;
+}
+#about .imgbox {
+  position: relative;
 }
 #about .imgbox img {
   border-radius: 50%;
   border: 8px solid #ebebeb;
-  width: 150px;
-  height: 150px;
-  position: relative;
-  right: 90px;
-  top: 5px;
-}
-#about .imgbox2 img {
-  border-radius: 50%;
-  border: 8px solid #ebebeb;
-  width: 150px;
-  height: 150px;
-  position: relative;
-  left: 280px;
-  top: 110px;
-}
-#about .box {
-  padding-bottom: 200px;
+  width: 180px;
+  height: 180px;
 }
 #about .box .btn {
-  position: absolute;
-  right: 615px;
+  position: relative;
+  left: 70px;
   color: white;
   font-size: 20px;
-  padding: 25px 40px;
+  padding: 40px 55px;
+  border-radius: 50%;
+  background-color: #ffc800;
   border-radius: 50%;
   border: 8px solid #ebebeb;
-  background-color: #ffc800;
+}
+#about .bottomline {
+  position: absolute;
+  left: 50%;
+  border-style: solid;
+  height: 100%;
+  border-right-color: #eaeaea;
+  border-right-width: 3px;
+}
+#about .row {
+  display: flex;
+  gap: 20px;
+}
+#about .row .emptycell {
+  flex: 1;
+}
+#about .row .text {
+  flex: 1;
+}
+#about .row .center {
+  width: auto;
+}
+#about .rowreversed {
+  flex-direction: row-reverse;
 }
 
 #amazing {
