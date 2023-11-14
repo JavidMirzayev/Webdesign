@@ -1,18 +1,20 @@
 header
     position: fixed
     width: 100%
-    padding: 30px 365px
+    padding: 30px 0
     background-color: #212529
 
     .imgbox
         width: 140px
         height: 20px
-        position: relative
-        right: 250px
+
     nav
         a
             font-size: 18px
-            color: #d7d7df
+            color: #b5b5b8
             margin-right: 30px
-            position: relative
-            left: 300px
+
+    @media screen and ( max-width: 768px )
+        nav
+            a
+                display: none
