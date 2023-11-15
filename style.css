@@ -27,7 +27,6 @@ header nav a {
 }
 #studio .textbox {
   color: white;
-  text-align: center;
 }
 #studio .textbox h2 {
   padding: 230px 0 35px;
@@ -37,14 +36,14 @@ header nav a {
 #studio .textbox h4 {
   padding-bottom: 30px;
   font-size: 75px;
-  font-weight: 750;
+  font-weight: 700;
 }
 #studio .btn {
   color: white;
   font-size: 20px;
-  padding: 15px 35px;
+  font-weight: 700;
+  padding: 20px 45px;
   background-color: #ffc800;
-  margin-left: 450px;
 }
 
 #services {
