@@ -66,7 +66,7 @@ header nav a {
 #services .icon {
   border-radius: 50%;
   background-color: #ffc800;
-  padding: 28px 30px;
+  padding: 28px 32px;
   width: 120px;
   height: 120px;
   font-size: 55px;
@@ -214,51 +214,51 @@ header nav a {
   flex-direction: row-reverse;
 }
 
-#amazing {
+#team {
   background-color: #f6f6f6;
   padding: 20px 75px;
 }
-#amazing .textbox {
+#team .textbox {
   text-align: center;
 }
-#amazing .textbox h3 {
+#team .textbox h3 {
   font-size: 35px;
   font-weight: 700;
   padding: 20px 0;
 }
-#amazing .textbox h4 {
+#team .textbox h4 {
   color: #6a6a6a;
   font-size: 20px;
   padding-bottom: 70px;
 }
-#amazing .textbox h2 {
+#team .textbox h2 {
   font-size: 30px;
   font-weight: 700;
   padding: 25px 0 10px;
 }
-#amazing .textbox h5 {
+#team .textbox h5 {
   color: #6a6a6a;
   font-size: 20px;
   padding-bottom: 15px;
 }
-#amazing .textbox h6 {
+#team .textbox h6 {
   font-size: 20px;
   color: #6a6a6a;
   padding: 40px 145px 20px;
   line-height: 1.5;
 }
-#amazing .imgbox img {
+#team .imgbox img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
   border: 8px solid #dfe0e1;
 }
-#amazing ul {
+#team ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-#amazing ul li {
+#team ul li {
   font-size: 16px;
   background-color: #1d1735;
   border-radius: 30px;
