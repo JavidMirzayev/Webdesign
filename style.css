@@ -366,16 +366,24 @@ header nav a {
 #website {
   padding: 20px 0;
 }
-#website ul {
+#website .icon ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-#website ul li {
+#website .icon ul li {
   font-size: 18px;
+  border-radius: 30px;
   background-color: #1d1735;
-  border-radius: 70%;
   color: white;
-  border: 15px solid #1d1735;
-  margin: 0 15px;
+  border: 12px solid #1d1735;
+  margin: 0 10px;
+}
+#website .textbox h3 {
+  margin-top: 15px;
+}
+#website .textbox2 h4 {
+  margin-top: 18px;
+  padding: 0 15px 0 0;
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */
