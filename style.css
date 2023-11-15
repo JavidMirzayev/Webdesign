@@ -49,6 +49,7 @@ header nav a {
   font-size: 20px;
   padding: 15px 35px;
   background-color: #ffc800;
+  margin-left: 450px;
 }
 
 @media screen and (max-width: 768px) {
@@ -207,11 +208,10 @@ header nav a {
   height: 180px;
 }
 #about .box .btn {
-  left: 70px;
-  top: 40px;
   color: white;
   font-size: 20px;
   padding: 40px 55px;
+  margin-left: 70px;
   border-radius: 50%;
   background-color: #ffc800;
   border-radius: 50%;
@@ -274,6 +274,7 @@ header nav a {
   font-size: 20px;
   color: #6a6a6a;
   padding: 40px 145px 20px;
+  line-height: 1.5;
 }
 #amazing .imgbox img {
   width: 250px;
@@ -339,16 +340,19 @@ header nav a {
 }
 #contact .box .add input {
   color: rgba(0, 0, 0, 0.1764705882);
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 700;
   padding: 15px;
-  width: 470px;
+  width: 550px;
   height: 65px;
-  margin: 12px 0;
+  margin: 0 0 22px;
 }
 #contact .demo .add input {
   font-size: 20px;
-  width: 600px;
-  height: 245px;
+  font-weight: 700;
+  padding-bottom: 180px;
+  width: 550px;
+  height: 240px;
   color: rgba(0, 0, 0, 0.1764705882);
 }
 #contact .box .btn {
