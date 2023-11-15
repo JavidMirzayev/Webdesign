@@ -42,7 +42,7 @@ header nav a {
   color: white;
   font-size: 20px;
   font-weight: 700;
-  padding: 20px 45px;
+  padding: 20px 55px;
   background-color: #ffc800;
 }
 
@@ -327,8 +327,9 @@ header nav a {
   color: rgba(0, 0, 0, 0.1764705882);
 }
 #contact .box .btn {
-  padding: 20px 35px;
-  background-color: #c19e1d;
+  padding: 20px 55px;
+  opacity: 0.5;
+  background-color: #ffc800;
   color: white;
   font-size: 20px;
   font-weight: 700;
