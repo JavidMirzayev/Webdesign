@@ -117,7 +117,17 @@ header nav a {
 }
 #portfolio .imgbox img {
   width: 350px;
-  height: 220px;
+  height: 250px;
+}
+#portfolio .imgbox2 img {
+  position: absolute;
+  width: 378px;
+  height: 250px;
+  opacity: 0;
+  transition: 2s;
+}
+#portfolio .imgbox2 img:hover {
+  opacity: 0.5;
 }
 
 #about {
