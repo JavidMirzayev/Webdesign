@@ -27,9 +27,9 @@ header nav a {
 }
 #studio .textbox {
   color: white;
+  text-align: center;
 }
 #studio .textbox h2 {
-  padding: 230px 0 35px;
   font-size: 35px;
   font-weight: 400;
 }
@@ -365,7 +365,7 @@ header nav a {
   margin-top: 15px;
 }
 #website .textbox2 h4 {
-  margin-top: 18px;
+  margin-top: 15px;
   padding: 0 15px 0 0;
   display: inline-block;
 }/*# sourceMappingURL=style.css.map */
