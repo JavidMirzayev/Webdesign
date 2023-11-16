@@ -121,13 +121,26 @@ header nav a {
 }
 #portfolio .imgbox2 img {
   position: absolute;
-  width: 378px;
+  width: 353px;
   height: 250px;
   opacity: 0;
-  transition: 2s;
+  transition: 1s;
 }
 #portfolio .imgbox2 img:hover {
-  opacity: 0.5;
+  opacity: 0.9;
+}
+#portfolio .imgbox2 i {
+  color: white;
+  position: absolute;
+  padding-left: 150px;
+  padding-top: 85px;
+  font-size: 55px;
+  font-weight: 700;
+  opacity: 0;
+  transition: 1s;
+}
+#portfolio .imgbox2 i:hover {
+  opacity: 0.9;
 }
 
 #about {
