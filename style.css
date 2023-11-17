@@ -30,7 +30,8 @@ header nav a {
   text-align: center;
 }
 #studio .textbox h2 {
-  font-size: 35px;
+  padding: 230px 0 35px;
+  font-size: 50px;
   font-weight: 400;
 }
 #studio .textbox h4 {
@@ -38,8 +39,9 @@ header nav a {
   font-size: 75px;
   font-weight: 700;
 }
-#studio .btn {
+#studio .btnn {
   color: white;
+  border-radius: 5px;
   font-size: 20px;
   font-weight: 700;
   padding: 20px 55px;
@@ -95,19 +97,20 @@ header nav a {
   font-weight: 700;
 }
 #portfolio .textboox h3 {
-  padding: 25px 0 50px;
+  padding: 18px 0 50px;
   line-height: 1.3;
   color: #6a6a6a;
   font-size: 20px;
 }
 #portfolio .textbox {
   background-color: white;
+  margin: 0 2px 18px;
   text-align: center;
 }
 #portfolio .textbox h2 {
   font-size: 25px;
   font-weight: 700;
-  padding: 25px 0 15px;
+  padding: 25px 0 10px;
 }
 #portfolio .textbox h4 {
   color: #6a6a6a;
@@ -116,8 +119,8 @@ header nav a {
   padding-bottom: 25px;
 }
 #portfolio .imgbox img {
-  width: 350px;
-  height: 250px;
+  width: 353px;
+  height: 251px;
 }
 #portfolio .icon i {
   color: white;
