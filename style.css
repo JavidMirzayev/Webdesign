@@ -16,10 +16,29 @@ header .imgbox {
 }
 header nav a {
   font-size: 18px;
-  color: #b5b5b8;
+  color: #9999ad;
   margin-right: 30px;
 }
 
+@media (max-width: 1000px) {
+  nav a {
+    display: none;
+  }
+}
+@media (max-width: 999px) {
+  .btn {
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 12px;
+    color: #9999ad;
+    font-weight: 600;
+    border: 1px solid #9999ad;
+    display: inline-flex;
+  }
+  .btn h1 {
+    padding: 0 8px 0 0;
+  }
+}
 #studio {
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
   background-position: center center;
@@ -120,8 +139,8 @@ header nav a {
   padding-bottom: 25px;
 }
 #portfolio .imgbox img {
-  width: 353px;
-  height: 251px;
+  width: 354px;
+  height: 252px;
 }
 #portfolio .icon i {
   color: white;
