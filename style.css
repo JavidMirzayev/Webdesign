@@ -215,7 +215,6 @@ header nav a {
   margin-left: 90px;
   border-radius: 50%;
   background-color: #ffc800;
-  border-radius: 50%;
   border: 8px solid #ebebeb;
 }
 #about .textline {
@@ -240,47 +239,7 @@ header nav a {
 #about .rowreversed {
   flex-direction: row-reverse;
 }
-@media (max-width: 400px) {
-  #about .textboxx {
-    padding: 10px 0 55px;
-  }
-  #about .textboxx h1 {
-    font-size: 45px;
-    padding: 45px 0 15px;
-    font-weight: 700;
-  }
-  #about .textboxx h4 {
-    color: #969696;
-    padding-bottom: 50px;
-    font-size: 20px;
-  }
-  #about .textboxx h2 {
-    font-size: 25px;
-    font-weight: 600;
-  }
-  #about .textboxx h3 {
-    font-size: 30px;
-    font-weight: 700;
-    padding-bottom: 15px;
-  }
-  #about .textboxx h5 {
-    font-size: 18px;
-    color: #969696;
-    line-height: 1.8;
-    padding-right: 90px;
-  }
-  #about .textboxx h6 {
-    font-size: 18px;
-    color: #969696;
-    line-height: 1.8;
-    padding-left: 90px;
-  }
-  #about .imgbox img {
-    border-radius: 50%;
-    border: 8px solid #ebebeb;
-    width: 180px;
-    height: 180px;
-  }
+@media (max-width: 999px) {
   #about .box .btn {
     color: white;
     font-size: 20px;
@@ -288,27 +247,8 @@ header nav a {
     margin-left: 90px;
     border-radius: 50%;
     background-color: #ffc800;
-    border-radius: 100%;
     border: 8px solid #ebebeb;
-  }
-  #about .textline {
-    order-style: solid;
-    eight: 150px;
-    argin-right: 87px;
-    order-right-color: #ebebeb;
-    order-right-width: 2px;
-  }
-  #about .row {
-    display: flex;
-  }
-  #about .row .emptycell {
-    flex: 1;
-  }
-  #about .row .text {
-    flex: 1;
-  }
-  #about .row .center {
-    width: auto;
+    display: block;
   }
 }
 
@@ -363,6 +303,15 @@ header nav a {
   color: white;
   border: 15px solid #1d1735;
   margin: 0 10px;
+}
+@media (max-width: 999px) {
+  #team h6 {
+    font-size: 20px;
+    color: #6a6a6a;
+    padding: 40px 145px 20px;
+    line-height: 1.5;
+    display: inline;
+  }
 }
 
 #microsoft .one {
@@ -432,6 +381,14 @@ header nav a {
   font-size: 20px;
   font-weight: 700;
 }
+@media (max-width: 999px) {
+  #contact {
+    background-color: #212529;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+    width: 150%;
+    height: 100%;
+  }
+}
 
 #website {
   padding: 20px 0;
@@ -456,4 +413,11 @@ header nav a {
   margin-top: 15px;
   padding: 0 15px 0 0;
   display: inline-block;
+}
+@media (max-width: 999px) {
+  #website .textbox h3 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
