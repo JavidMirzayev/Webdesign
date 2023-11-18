@@ -7,7 +7,7 @@ header {
   position: fixed;
   z-index: 2;
   width: 100%;
-  padding: 30px 0;
+  padding: 10px 0;
   background-color: #212529;
 }
 header .imgbox {
@@ -16,7 +16,7 @@ header .imgbox {
 }
 header nav a {
   font-size: 18px;
-  color: #9999ad;
+  color: #e4d9d9;
   margin-right: 30px;
 }
 
@@ -28,7 +28,6 @@ header nav a {
 @media (max-width: 999px) {
   .btn {
     border-radius: 5px;
-    padding: 6px 12px;
     font-size: 12px;
     color: #9999ad;
     font-weight: 600;
@@ -67,7 +66,15 @@ header nav a {
   padding: 20px 55px;
   background-color: #ffc800;
 }
-
+@media (max-width: 750px) {
+  #studio {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 150%;
+    height: 150%;
+  }
+}
 #services {
   padding: 40px 0 60px;
 }
@@ -195,23 +202,6 @@ header nav a {
   line-height: 1.8;
   padding-left: 90px;
 }
-#about .textboxtwo {
-  padding: 20px 0 55px;
-}
-#about .textboxtwo h4 {
-  font-size: 25px;
-  font-weight: 600;
-}
-#about .textboxtwo h5 {
-  font-size: 30px;
-  font-weight: 700;
-  padding-bottom: 15px;
-}
-#about .textboxtwo p {
-  font-size: 25px;
-  color: #969696;
-  line-height: 1.2;
-}
 #about .imgbox img {
   border-radius: 50%;
   border: 8px solid #ebebeb;
@@ -222,7 +212,7 @@ header nav a {
   color: white;
   font-size: 20px;
   padding: 40px 55px;
-  margin-left: 70px;
+  margin-left: 90px;
   border-radius: 50%;
   background-color: #ffc800;
   border-radius: 50%;
@@ -237,7 +227,6 @@ header nav a {
 }
 #about .row {
   display: flex;
-  gap: 20px;
 }
 #about .row .emptycell {
   flex: 1;
@@ -250,6 +239,77 @@ header nav a {
 }
 #about .rowreversed {
   flex-direction: row-reverse;
+}
+@media (max-width: 400px) {
+  #about .textboxx {
+    padding: 10px 0 55px;
+  }
+  #about .textboxx h1 {
+    font-size: 45px;
+    padding: 45px 0 15px;
+    font-weight: 700;
+  }
+  #about .textboxx h4 {
+    color: #969696;
+    padding-bottom: 50px;
+    font-size: 20px;
+  }
+  #about .textboxx h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  #about .textboxx h3 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  #about .textboxx h5 {
+    font-size: 18px;
+    color: #969696;
+    line-height: 1.8;
+    padding-right: 90px;
+  }
+  #about .textboxx h6 {
+    font-size: 18px;
+    color: #969696;
+    line-height: 1.8;
+    padding-left: 90px;
+  }
+  #about .imgbox img {
+    border-radius: 50%;
+    border: 8px solid #ebebeb;
+    width: 180px;
+    height: 180px;
+  }
+  #about .box .btn {
+    color: white;
+    font-size: 20px;
+    padding: 40px 55px;
+    margin-left: 90px;
+    border-radius: 50%;
+    background-color: #ffc800;
+    border-radius: 100%;
+    border: 8px solid #ebebeb;
+  }
+  #about .textline {
+    order-style: solid;
+    eight: 150px;
+    argin-right: 87px;
+    order-right-color: #ebebeb;
+    order-right-width: 2px;
+  }
+  #about .row {
+    display: flex;
+  }
+  #about .row .emptycell {
+    flex: 1;
+  }
+  #about .row .text {
+    flex: 1;
+  }
+  #about .row .center {
+    width: auto;
+  }
 }
 
 #team {
