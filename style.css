@@ -75,10 +75,6 @@ header nav a {
 #studio .btn h2 {
   cursor: pointer;
 }
-#studio .btn:hover {
-  background-color: #c79e09;
-  opacity: 1;
-}
 @media (max-width: 750px) {
   #studio {
     background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
