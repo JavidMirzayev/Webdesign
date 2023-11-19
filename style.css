@@ -14,10 +14,14 @@ header .imgbox {
   width: 140px;
   height: 20px;
 }
+header .imgbox img {
+  cursor: pointer;
+}
 header nav a {
   font-size: 18px;
   color: #e4d9d9;
   margin-right: 30px;
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) {
@@ -61,10 +65,19 @@ header nav a {
 #studio .btnn {
   color: white;
   border-radius: 5px;
+  cursor: pointer;
   font-size: 20px;
   font-weight: 700;
   padding: 20px 55px;
   background-color: #ffc800;
+  transition: 2s;
+}
+#studio .btnn h2 {
+  cursor: pointer;
+}
+#studio .btnn:hover {
+  background-color: #c79e09;
+  opacity: 1;
 }
 @media (max-width: 750px) {
   #studio {
@@ -152,6 +165,7 @@ header nav a {
 #portfolio .icon i {
   color: white;
   position: absolute;
+  cursor: pointer;
   width: 26%;
   height: 40%;
   padding-left: 155px;
@@ -254,7 +268,7 @@ header nav a {
 
 #team {
   background-color: #f6f6f6;
-  padding: 20px 75px;
+  padding: 90px 75px;
 }
 #team .textbox {
   text-align: center;
@@ -286,8 +300,8 @@ header nav a {
   line-height: 1.5;
 }
 #team .imgbox img {
-  width: 250px;
-  height: 250px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
   border: 8px solid #dfe0e1;
 }
@@ -297,12 +311,16 @@ header nav a {
   justify-content: center;
 }
 #team ul li {
-  font-size: 16px;
-  background-color: #1d1735;
+  font-size: 18px;
+  background-color: #151029;
+  cursor: pointer;
   border-radius: 30px;
   color: white;
-  border: 15px solid #1d1735;
-  margin: 0 10px;
+  border: 12px solid #151029;
+  margin: 5px 10px;
+}
+#team ul li i {
+  cursor: pointer;
 }
 @media (max-width: 999px) {
   #team h6 {
@@ -316,23 +334,38 @@ header nav a {
 
 #microsoft .one {
   width: 190px;
-  height: 200px;
-  padding: 75px 0;
+  height: 150px;
+  padding: 50px 0;
+}
+#microsoft .one img {
+  cursor: pointer;
 }
 #microsoft .two {
   width: 130px;
   height: 150px;
-  padding: 75px 0;
+  padding: 50px 0;
+  margin-left: 65px;
+}
+#microsoft .two img {
+  cursor: pointer;
 }
 #microsoft .three {
   width: 160px;
-  height: 190px;
-  padding: 75px 0;
+  height: 150px;
+  padding: 50px 0;
+  margin-left: 65px;
+}
+#microsoft .three img {
+  cursor: pointer;
 }
 #microsoft .four {
   width: 120px;
-  height: 140px;
-  padding: 75px 0;
+  height: 150px;
+  padding: 50px 0;
+  margin-left: 85px;
+}
+#microsoft .four img {
+  cursor: pointer;
 }
 
 #contact {
@@ -375,6 +408,7 @@ header nav a {
 }
 #contact .box .btn {
   padding: 20px 55px;
+  border-radius: 5px;
   opacity: 0.5;
   background-color: #ffc800;
   color: white;
@@ -400,11 +434,15 @@ header nav a {
 }
 #website .icon ul li {
   font-size: 18px;
-  border-radius: 32px;
-  background-color: #1d1735;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #151029;
   color: white;
-  border: 12px solid #1d1735;
+  border: 12px solid #151029;
   margin: 0 10px;
+}
+#website .icon ul li i {
+  cursor: pointer;
 }
 #website .textbox h3 {
   margin-top: 15px;
