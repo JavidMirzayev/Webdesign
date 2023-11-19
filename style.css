@@ -62,7 +62,7 @@ header nav a {
   font-size: 75px;
   font-weight: 700;
 }
-#studio .btnn {
+#studio .btn {
   color: white;
   border-radius: 5px;
   cursor: pointer;
@@ -72,10 +72,10 @@ header nav a {
   background-color: #ffc800;
   transition: 2s;
 }
-#studio .btnn h2 {
+#studio .btn h2 {
   cursor: pointer;
 }
-#studio .btnn:hover {
+#studio .btn:hover {
   background-color: #c79e09;
   opacity: 1;
 }
@@ -88,6 +88,7 @@ header nav a {
     height: 150%;
   }
 }
+
 #services {
   padding: 40px 0 60px;
 }
