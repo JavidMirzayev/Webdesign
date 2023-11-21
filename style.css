@@ -48,6 +48,9 @@ header nav a {
   .btn h1 {
     padding-right: 8px;
   }
+  header {
+    padding: 30px 0;
+  }
 }
 #studio {
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
@@ -65,7 +68,7 @@ header nav a {
   font-weight: 400;
 }
 #studio .textbox h4 {
-  padding-bottom: 30px;
+  margin-bottom: 70px;
   font-size: 75px;
   font-weight: 700;
 }
@@ -84,8 +87,8 @@ header nav a {
 }
 @media (max-width: 999px) {
   #studio {
-    width: 100vw;
-    height: 150vh;
+    width: 120vw;
+    height: 160vh;
   }
   #studio .textbox h2 {
     padding-bottom: 30px;
@@ -93,7 +96,7 @@ header nav a {
     font-weight: 400;
   }
   #studio .textbox h4 {
-    font-size: 60px;
+    font-size: 75px;
   }
   #studio .textbox .btn {
     color: white;
@@ -104,7 +107,7 @@ header nav a {
 }
 
 #services {
-  padding: 40px 0 60px;
+  padding: 90px 0;
 }
 #services .textbox {
   text-align: center;
@@ -244,13 +247,13 @@ header nav a {
   font-size: 18px;
   color: #969696;
   line-height: 1.8;
-  padding-right: 90px;
+  padding-right: 110px;
 }
 #about .textboxx h6 {
   font-size: 18px;
   color: #969696;
   line-height: 1.8;
-  padding-left: 90px;
+  padding-left: 110px;
 }
 #about .imgbox img {
   border-radius: 50%;
