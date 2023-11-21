@@ -33,11 +33,7 @@ header nav a {
 
 @media (max-width: 999px) {
   header {
-    position: fixed;
     padding: 30px 0;
-    background-color: #212529;
-    z-index: 2;
-    width: 100%;
   }
   .btn {
     border-radius: 5px;
