@@ -255,7 +255,7 @@ header nav a {
   color: white;
   font-size: 20px;
   padding: 40px 55px;
-  margin-left: 90px;
+  margin-left: 88px;
   border-radius: 50%;
   background-color: #ffc800;
   border: 8px solid #ebebeb;
@@ -302,7 +302,7 @@ header nav a {
   padding: 20px 0;
 }
 #team .textbox h4 {
-  color: #6a6a6a;
+  color: #969696;
   font-size: 18px;
   padding-bottom: 70px;
 }
@@ -312,17 +312,17 @@ header nav a {
   padding: 25px 0 10px;
 }
 #team .textbox h5 {
-  color: #6a6a6a;
+  color: #969696;
   font-size: 18px;
   padding-bottom: 15px;
 }
 #team .textbox h6 {
   font-size: 18px;
-  color: #6a6a6a;
+  color: #969696;
 }
 #team .textbox p {
   font-size: 18px;
-  color: #6a6a6a;
+  color: #969696;
   padding: 50px 0 10px;
 }
 #team .imgbox img {
