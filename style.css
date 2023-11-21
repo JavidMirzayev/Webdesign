@@ -39,7 +39,7 @@ header nav a {
     display: inline-flex;
   }
   .btn h1 {
-    padding: 0 8px 0 0;
+    padding-right: 8px;
   }
 }
 #studio {
@@ -75,13 +75,24 @@ header nav a {
 #studio .btn h2 {
   cursor: pointer;
 }
-@media (max-width: 750px) {
+@media (max-width: 999px) {
   #studio {
-    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
-    background-position: center center;
-    background-size: cover;
-    width: 150%;
-    height: 150%;
+    width: 100vw;
+    height: 150vh;
+  }
+  #studio .textbox h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  #studio .textbox h4 {
+    font-size: 60px;
+  }
+  #studio .textbox .btn {
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #ffc800;
   }
 }
 
@@ -273,14 +284,8 @@ header nav a {
 }
 @media (max-width: 999px) {
   #about .box .btn {
-    color: white;
-    font-size: 20px;
-    padding: 40px 55px;
-    margin-left: 90px;
-    border-radius: 50%;
-    background-color: #ffc800;
-    border: 8px solid #ebebeb;
     display: block;
+    margin-left: 80px;
   }
 }
 
@@ -292,13 +297,13 @@ header nav a {
   text-align: center;
 }
 #team .textbox h3 {
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 700;
   padding: 20px 0;
 }
 #team .textbox h4 {
   color: #6a6a6a;
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 70px;
 }
 #team .textbox h2 {
@@ -308,14 +313,17 @@ header nav a {
 }
 #team .textbox h5 {
   color: #6a6a6a;
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 15px;
 }
 #team .textbox h6 {
-  font-size: 20px;
+  font-size: 18px;
   color: #6a6a6a;
-  padding: 40px 145px 20px;
-  line-height: 1.5;
+}
+#team .textbox p {
+  font-size: 18px;
+  color: #6a6a6a;
+  padding: 50px 0 10px;
 }
 #team .imgbox img {
   width: 240px;
@@ -340,18 +348,9 @@ header nav a {
 #team ul li i {
   cursor: pointer;
 }
-@media (max-width: 999px) {
-  #team h6 {
-    font-size: 20px;
-    color: #6a6a6a;
-    padding: 40px 145px 20px;
-    line-height: 1.5;
-    display: inline;
-  }
-}
 
 #microsoft .one {
-  width: 190px;
+  width: 210px;
   height: 150px;
   padding: 50px 0;
 }
@@ -380,7 +379,7 @@ header nav a {
   width: 120px;
   height: 150px;
   padding: 50px 0;
-  margin-left: 85px;
+  margin-left: 72px;
 }
 #microsoft .four img {
   cursor: pointer;
@@ -437,8 +436,11 @@ header nav a {
   #contact {
     background-color: #212529;
     background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
-    width: 150%;
+    width: 100%;
     height: 100%;
+  }
+  #contact .box .btn {
+    margin-top: 35px;
   }
 }
 
@@ -470,10 +472,15 @@ header nav a {
   padding: 0 15px 0 0;
   display: inline-block;
 }
-@media (max-width: 999px) {
-  #website .textbox h3 {
-    margin-top: 15px;
+@media (max-width: 750px) {
+  #website .textbox {
     display: flex;
     justify-content: center;
+  }
+  #website .icon ul li {
+    margin-top: 20px;
+  }
+  #website .textbox2 h4 {
+    padding-right: 33px;
   }
 }/*# sourceMappingURL=style.css.map */
