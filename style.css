@@ -3,6 +3,13 @@ body {
   font-weight: 500;
 }
 
+a {
+  color: #e6af3a;
+}
+a:hover {
+  color: #e6af3a;
+}
+
 header {
   position: fixed;
   z-index: 2;
