@@ -31,12 +31,14 @@ header nav a {
   cursor: pointer;
 }
 
-@media (max-width: 1000px) {
-  nav a {
-    display: none;
-  }
-}
 @media (max-width: 999px) {
+  header {
+    position: fixed;
+    padding: 30px 0;
+    background-color: #212529;
+    z-index: 2;
+    width: 100%;
+  }
   .btn {
     border-radius: 5px;
     font-size: 12px;
@@ -48,8 +50,8 @@ header nav a {
   .btn h1 {
     padding-right: 8px;
   }
-  header {
-    padding: 30px 0;
+  nav a {
+    display: none;
   }
 }
 #studio {
