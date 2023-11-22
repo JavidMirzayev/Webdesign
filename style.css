@@ -10,7 +10,7 @@ a:hover {
   color: #e6af3a;
 }
 
-img {
+.imgbox img {
   width: 100%;
 }
 
@@ -262,6 +262,10 @@ header nav a {
   line-height: 1.8;
   padding-left: 110px;
 }
+#about .imgbox {
+  width: 180px;
+  height: 100px;
+}
 #about .imgbox img {
   border-radius: 50%;
   border: 8px solid #ebebeb;
@@ -340,6 +344,11 @@ header nav a {
   color: #969696;
   padding: 50px 0 10px;
 }
+#team .imgbox {
+  width: 220px;
+  height: 220px;
+  margin-left: 70px;
+}
 #team .imgbox img {
   border-radius: 50%;
   border: 8px solid #dfe0e1;
@@ -360,6 +369,11 @@ header nav a {
 }
 #team ul li i {
   cursor: pointer;
+}
+@media (max-width: 480px) {
+  #team .imgbox img {
+    margin-right: 160px;
+  }
 }
 
 #microsoft .one {
