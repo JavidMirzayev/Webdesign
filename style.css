@@ -244,6 +244,7 @@ header nav a {
 #about .textboxx h2 {
   font-size: 25px;
   font-weight: 600;
+  padding-bottom: 10px;
 }
 #about .textboxx h3 {
   font-size: 30px;
@@ -254,7 +255,7 @@ header nav a {
   font-size: 18px;
   color: #969696;
   line-height: 1.8;
-  padding-right: 110px;
+  padding: 0 80px 0 0;
 }
 #about .textboxx h6 {
   font-size: 18px;
@@ -263,8 +264,7 @@ header nav a {
   padding-left: 110px;
 }
 #about .imgbox {
-  width: 180px;
-  height: 100px;
+  padding: 0 15px;
 }
 #about .imgbox img {
   border-radius: 50%;
@@ -273,16 +273,18 @@ header nav a {
 #about .box .btn {
   color: white;
   font-size: 20px;
-  padding: 40px 55px;
-  margin-left: 88px;
+  font-weight: 700;
+  padding: 55px 70px;
+  margin-bottom: 80px;
+  margin-left: 60px;
   border-radius: 50%;
   background-color: #ffc800;
   border: 8px solid #ebebeb;
 }
 #about .textline {
   border-style: solid;
-  height: 150px;
-  margin-right: 87px;
+  height: 220px;
+  margin-right: 105px;
   border-right-color: #ebebeb;
   border-right-width: 2px;
 }
@@ -304,7 +306,7 @@ header nav a {
 @media (max-width: 999px) {
   #about .box .btn {
     display: block;
-    margin-left: 80px;
+    margin-left: 35px;
   }
 }
 
