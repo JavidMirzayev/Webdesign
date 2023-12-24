@@ -228,38 +228,38 @@ header nav a {
 #about {
   padding-bottom: 50px;
 }
-#about .textbox, #about .textboxx {
+#about .box, #about .Divbox {
   padding: 10px 0 55px;
 }
-#about .textbox h1, #about .textboxx h1 {
+#about .box h1, #about .Divbox h1 {
   font-size: 45px;
   padding: 45px 0 15px;
   font-weight: 700;
 }
-#about .textbox h4, #about .textboxx h4 {
+#about .box h4, #about .Divbox h4 {
   color: #969696;
   padding-bottom: 50px;
   font-size: 20px;
 }
-#about .textbox h2, #about .textboxx h2 {
+#about .box h2, #about .Divbox h2 {
   font-size: 25px;
   font-weight: 600;
   padding-bottom: 10px;
   margin: 0 110px;
 }
-#about .textbox h3, #about .textboxx h3 {
+#about .box h3, #about .Divbox h3 {
   font-size: 30px;
   font-weight: 700;
   padding-bottom: 15px;
   margin: 0 110px;
 }
-#about .textbox h5, #about .textboxx h5 {
+#about .box h5, #about .Divbox h5 {
   font-size: 19px;
   color: #969696;
   line-height: 1.8;
-  padding: 0 80px 0 0;
+  margin: 0 110px;
 }
-#about .textbox h6, #about .textboxx h6 {
+#about .box h6, #about .Divbox h6 {
   font-size: 19px;
   color: #969696;
   line-height: 1.5;
@@ -267,22 +267,33 @@ header nav a {
 }
 #about .imgbox {
   position: absolute;
-  left: 43%;
+  left: 43.2%;
   width: 170px;
   height: 170px;
   border: 7px solid #e9ecef;
   border-radius: 50%;
   overflow: hidden;
 }
-#about .box .btn {
+#about .Bigbox {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 170px;
+  height: 170px;
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
+  overflow: hidden;
   background-color: #ffc800;
+}
+#about .Bigbox h4 {
+  color: white;
+  font-size: 23px;
+  line-height: 0.3;
+  font-weight: 700;
+  padding: 10px 0;
 }
 #about .textline {
   border-style: solid;
-  margin-top: 50px;
   border-right-color: #aa1616;
   border-right-width: 2px;
 }
