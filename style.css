@@ -238,7 +238,6 @@ header nav a {
 }
 #about .box h4, #about .Divbox h4 {
   color: #969696;
-  padding-bottom: 50px;
   font-size: 20px;
 }
 #about .box h2, #about .Divbox h2 {
@@ -267,7 +266,7 @@ header nav a {
 }
 #about .imgbox img {
   position: absolute;
-  left: 43.2%;
+  left: 44%;
   width: 170px;
   height: 170px;
   border: 7px solid #e9ecef;
@@ -281,25 +280,33 @@ header nav a {
   border-radius: 50%;
   background-color: #ffc800;
 }
-#about .Bigbox h4 {
+#about .Bigbox .btn h4 {
   color: white;
   font-size: 23px;
   line-height: 0.3;
   font-weight: 700;
   padding: 10px 0;
 }
-#about .textline {
-  border-style: solid;
-  border-right-color: #aa1616;
-  border-right-width: 2px;
-}
-#about .textbox {
-  flex-direction: row-reverse;
-}
-@media (max-width: 999px) {
-  #about .box .btn {
-    display: block;
-    margin-left: 35px;
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  #about {
+    justify-content: flex-end;
+  }
+  #about .box h2, #about .box h3, #about .box h5, #about .box h6 {
+    margin: 0 20px 0 110px;
+  }
+  #about .imgbox img {
+    left: 0;
+    width: 90px;
+    height: 90px;
+    margin-left: 105px;
+    border: 5px solid #e9ecef;
+  }
+  #about .btn {
+    left: 0;
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    border: 5px solid #e9ecef;
   }
 }
 
